@@ -10,10 +10,10 @@ Bulk Inserts: Uses COPY for efficient data loading.
 
 ## **Screenshots**
 ### **Kafka Producer Running**
-![Kafka Producer](screenshots_of_progress/progress_kafka.png)
+![Kafka Producer](screenshots_of_progress/progress_kafka.PNG)
 
 ### Kafka Consumer Receiving Messages**
-![Kafka Consumer](screenshots_of_progress/progress_kafka.png)
+![Kafka Consumer](screenshots_of_progress/progress_kafka.PNG)
 
 ### Console Showing Services**
-![Console](screenshots_of_progress/progress_kafka_aiven_console.png)
+![Console](screenshots_of_progress/progress_kafka_aiven_console.PNG)
