@@ -1,0 +1,38 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore some archive folders
+keys/
+archive/
+
+# Ignore environment variables
+.env
+.envrc
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore Kafka security files
+*.pem
+*.cert
+*.key
+
+# Ignore database credentials (if any)
+db_credentials.json
+db_config.yaml
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled binary files
+*.so
+*.dll
+*.dylib
