@@ -7,3 +7,13 @@ Kafka Consumer: Reads messages from Kafka.
 Environment Handling: Uses .env to manage secrets securely.
 Bulk Inserts: Uses COPY for efficient data loading.
 [TODO] Debezium Setup: Pending database change capture (CDC).
+
+## **Screenshots**
+### **Kafka Producer Running**
+![Kafka Producer](screenshots_of_progress/progress_kafka.png)
+
+### Kafka Consumer Receiving Messages**
+![Kafka Consumer](screenshots_of_progress/progress_kafka.png)
+
+### Console Showing Services**
+![Console](screenshots_of_progress/progress_kafka_aiven_console.png)
