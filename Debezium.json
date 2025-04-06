@@ -1,22 +1,21 @@
 {
-    "name": "postgres-source",
-    "config": {
-      "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
-      "database.hostname": "kafka-17f6332a-edmond16913-9729.f.aivencloud.com",
-      "database.port": "",
-      "database.user": "",
-      "database.password": "",
-      "database.dbname": "defaultdb",
-      "plugin.name": "pgoutput",
-      "slot.name": "debezium_slot",
-      "table.include.list": "public.users",
-      "database.server.id": "1",
-      "database.server.name": "aiven_pg",
-      "database.history.kafka.bootstrap.servers": "kafka-17f6332a-edmond16913-9729.f.aivencloud.com:10350",
-      "database.history.kafka.topic": "schema-changes.users",
-      "include.schema.changes": "true",
-      "topic.prefix": "postgres-changes",
-      "database.sslmode": "verify-full",
-      "database.sslrootcert": "ca_1.pem"
-    }
-  }
+  "topic.prefix": "dbserver1",
+  "name": "debezium-postgres-connector",
+  "database.hostname": "",
+  "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+  "database.port": "",
+  "tasks.max": "1",
+  "database.user": "",
+  "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+  "database.password": "",
+  "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+  "database.dbname": "defaultdb",
+  "header.converter": "org.apache.kafka.connect.json.JsonConverter",
+  "plugin.name": "pgoutput",
+  "slot.name": "debezium_analytics_slot",
+  "publication.name": "debezium_analytics_pub",
+  "config.action.reload": "restart",
+  "publication.autocreate.mode": "all_tables",
+  "table.include.list": "analytics.events",
+  "schema.include.list": "analytics"
+}
