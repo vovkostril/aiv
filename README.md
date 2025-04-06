@@ -15,10 +15,15 @@ Bulk Inserts: Uses COPY for efficient data loading.
 Debezium Setup: Done database change capture (CDC).
 
 Next Steps & Improvements
+
 Add OpenSearch Sink Connector for real-time search/indexing.
+
 Implement Schema Registry with Avro or Protobuf.
+
 Add Grafana/Prometheus monitoring.
+
 Set up unit tests and validation scripts.
+
 
 ## **Screenshots**
 ### **Kafka Producer Running**
