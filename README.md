@@ -12,8 +12,13 @@ Environment Handling: Uses .env to manage secrets securely.
 
 Bulk Inserts: Uses COPY for efficient data loading.
 
-Debezium Setup: Pending database change capture (CDC).
+Debezium Setup: Done database change capture (CDC).
 
+Next Steps & Improvements
+Add OpenSearch Sink Connector for real-time search/indexing.
+Implement Schema Registry with Avro or Protobuf.
+Add Grafana/Prometheus monitoring.
+Set up unit tests and validation scripts.
 
 ## **Screenshots**
 ### **Kafka Producer Running**
@@ -36,3 +41,4 @@ Console Showing Kafka Connect Services
 Database Change Capture 
 This screenshot shows that Debezium is successfully capturing changes from the database and pushing them to the corresponding Kafka topic.
 ![Console](screenshots_of_progress/connector_topc_log.PNG)
+
