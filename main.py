@@ -11,7 +11,7 @@ import consumer
 import time
 import random
 
-# nvironment variables .env
+# Environment variables .env
 load_dotenv()
 
 def insert_test_messages_user():
