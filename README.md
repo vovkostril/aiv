@@ -1,6 +1,6 @@
 This project sets up a PostgreSQL database, Kafka topic, producer, and consumer using AWS services. The goal is to stream data from a database table to Kafka in real time.
 
-Features
+**Features**
 
 PostgreSQL Setup: Creates a table and inserts bulk test data.
 
@@ -14,7 +14,7 @@ Bulk Inserts: Uses COPY for efficient data loading.
 
 Debezium Setup: Done database change capture (CDC).
 
-Next Steps & Improvements
+**Next Steps & Improvements**
 
 Add OpenSearch Sink Connector for real-time search/indexing.
 
